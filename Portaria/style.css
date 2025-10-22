@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t1{
+    color: blue;
+
+}
+
+.t2{
+    color: green;
+}
+
+#v1{
+    display: none;
+
+}
+
+#v2{
+    display: none;
+}
+body {
+    background-image: url(../Imagens/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #ee00ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
